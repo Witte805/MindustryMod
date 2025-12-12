@@ -10,8 +10,6 @@ public class MyItems {
     public static void load() {
         myCustomItem = new Item("my-custom-item") {{
             // 以下是物品属性，可根据需要调整
-            localizedName = "code Item"; // 显示名称，之后会在bundle文件中定义
-            description = "code item";
             color = mindustry.graphics.Pal.lightishGray; // 物品颜色
             hardness = 1; // 开采硬度
             radioactivity = 0f; // 放射性
